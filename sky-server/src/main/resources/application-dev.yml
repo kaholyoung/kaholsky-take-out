@@ -9,7 +9,7 @@ sky:
   alioss:
     endpoint: oss-cn-guangzhou.aliyuncs.com
     access-key-id: LTAI5t63PJGzQ4SgjqB9pe8z
-    access-key-secret: 3DOmh32TKxZNbDtDS5NlAmGGZcAljY
+    access-key-secret:
     bucket-name: your-bucket-name
   redis:
     host: localhost
