@@ -18,6 +18,7 @@
 
     </select>
 
+
     <update id="update" parameterType="AddressBook">
         update address_book
         <set>

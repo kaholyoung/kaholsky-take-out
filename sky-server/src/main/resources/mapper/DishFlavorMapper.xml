@@ -9,4 +9,11 @@
             (#{df.dishId},#{df.name},#{df.value})
         </foreach>
     </insert>
+
+    <insert id="insertBatch1">
+        insert into dish_flavors (dish_id,name,value ) valus
+        <foreach collection="flavors" item="df" separator=",">
+            (#{df.dishId},#{df.name},#{df.value})
+        </foreach>
+    </insert>
 </mapper>
